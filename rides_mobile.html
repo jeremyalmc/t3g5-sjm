@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Fantasy Land Theme Park - Rides</title>  <!-- Title of web page-->
+        <meta charset="utf-8">
+        <meta name="description" content="A fantasy experience like no other! This is a website for the Fantasy Land
+        theme park in California.">       <!-- Description of web page-->
+        <meta name="keywords" content="Theme Park, Amusement Park, Day Trips Family Vacation, California"> <!-- Key words so search engine
+        can find the page and classify it-->
+        <meta name="author" content="t3g5-sjm">   <!-- Group tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Use whole width of device and scale by 1.0 -->
+        <meta name="refresh" content="600"> <!-- Refresh the page every 600 seconds -->
+        <meta name="robots" content="noindex,nofollow"><!-- Tells search engine not to index site/robot cannot drill down the site-->
+        <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->        <!-- For part 3, when css is added.-->
+      </head>
+
+    <body>
+      <header> 
+        <nav id="main-nav">
+          <div class="dropdown">
+              <button>
+                  <img src="Images/menuIcon.jpg" alt="Menu Icon" height="30" width="30">
+              </button>
+              <!-- The following options will be hidden unless clicked once CSS and JavaScript are implemented -->
+              <div class="dropdown-links">
+                <a href="index_mobile.html">Home</a>
+                <a href="rides_mobile.html">Rides</a>
+                <a href="details_mobile.html">Details</a>
+              </div>
+          </div>
+          <div id="logo-wrapper">
+            <a href="index.html">
+              <img src="Images/FLlogo.png" alt="Fantasy Land logo of dragon" width="200" height="100">
+            </a>
+          </div>
+        </nav>
+        <h1>Rides</h1>
+      </header>
+      <br>
+      <section id="rides-section">
+        <div id="rides-wrapper">
+          <div id="fairy-wheel" class="ride">
+            <h3>Fairy Wheel</h3>
+            <div class="column">
+              <figure>
+                <img src="Images/ferrisWheel.gif" alt="Photograph of a fairy-themed ferris wheel"
+                width="300" height="200">
+                <figcaption>Fairy Wheel - magical views of the park and grounds!</figcaption>
+              </figure>
+            </div>
+            <div class="column">
+                <div class="ride-description">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="ride-medical">
+                    <ul>
+                        <li>1.2m+</li>
+                        <li>Very high - not recommended if have vertigo</li>
+                        <li>Wheelchair accessible</li>
+                        <li>Ages 6+</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+
+          <div id="smack-a-gnome" class="ride">
+            <h3>Smack-a-Gnome!</h3>
+            <div class="column">
+              <figure>
+                <img src="Images/gnome.jpg" alt="Photograph of a gnome's cottage in the theme park"
+                width="300" height="200">
+                <figcaption>Smack-a-Gnome! Enter the Gnomes' cottage at your own risk!</figcaption>
+              </figure>
+            </div>
+            <div class="column">
+                <div class="ride-description">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="ride-medical">
+                    <ul>
+                    <li>No height limit</li>
+                    <li>Fun for all ages!</li>
+                    <li>Children under 7 must be accompanied by an adult</li>
+                    <li>Wheelchair accessible</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+
+          <div id="loopy-leprechaun" class="ride">    
+            <h3>Loopy Leprechaun</h3>
+            <div class="column">
+              <figure>
+                <img src="Images/leprechaun.jfif" alt="Photograph of a leprechaun-themed rollercoaster"
+                width="300" height="200">
+                <figcaption>Seek some thrills with our 8-looped leprechaun rollercoaster!</figcaption>
+              </figure>
+            </div>
+            <div class="column">
+                <div class="ride-description">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="ride-medical">
+                    <ul>
+                    <li>1.6m+</li>
+                    <li>Age 12+</li>
+                    <li>Can cause nausea and dizziness</li>
+                    <li>Not accessible for people with heart problems or epilepsy</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <br>
+
+      <section id="map-section">
+        <button>Click to Show Map</button>
+        <!-- Hidden once CSS and JavaScript implemented -->
+        <div id="map-wrapper">
+          <img src="Images/map.png" alt="Theme park map" usemap="#parkmap">
+          <map name="parkmap">
+            <area shape="circle" coords="481, 227, 25" href="#fairy-wheel">
+            <area shape="circle" coords="270, 351, 30" href="#smack-a-gnome">
+            <area shape="circle" coords="201, 236, 50" href="#loopy-leprechaun">
+          </map>
+        </div>
+      </section>
+
+      <footer>
+        <div id="price" class="column">
+          <h5> Day Passes: Only $20!</h5>
+        </div>
+        <div id="contact" class="column">   
+          <address>
+            17 Fairways, Boulevard Park, California
+          </address>
+          <p> &#128241 031 415 9265</p>
+        </div>
+        <div id="discount" class="column">
+          <h5> 10% off on Wednesday! </h5>
+        </div>
+
+      </footer>
+
+    </body>
+
+</html>
